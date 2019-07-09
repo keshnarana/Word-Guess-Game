@@ -1,0 +1,704 @@
+body a{
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+}
+html, body{
+    font-size: 100%;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+body{
+	background:#FFFFFF;
+}
+
+h2{
+	color: #ffffff;
+}
+.banner{
+	background: url(../images/1.jpg) no-repeat 0px 0px;
+    background-size: cover;
+}
+.agileinfo-dot{
+	background: url(../images/dott.png)repeat 0px 0px;
+    background-size: 2px;
+    -webkit-background-size: 2px;
+    -moz-background-size: 2px;
+    -o-background-size: 2px;
+    -ms-background-size: 2px;
+	padding: 3em 0;
+}
+.jarallax {
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+/*-- banner --*/
+/*-- header --*/
+.header {
+    margin: 2em 0 0 0;
+}
+.agileits-logo h1{
+	margin:0;
+}
+.agileits-logo h1 a{
+    font-size: 1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 700;
+    padding: .2em .5em;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 6px;
+}
+.agileits-logo h1 a img{
+    width: 13%;
+}
+/*-- social-icons --*/
+.agileinfo-social-grids{
+    float: left;
+    margin-left: 0;
+}
+.agileinfo-social-grids ul{
+	padding:0;
+	margin:0;
+}
+.agileinfo-social-grids ul li{
+    display: inline-block;
+}
+.agileinfo-social-grids ul li a {
+	color: #FFFFFF;
+    text-align: center;
+	
+}
+.agileinfo-social-grids ul li a i.fa.fa-facebook,.agileinfo-social-grids ul li a i.fa.fa-twitter,.agileinfo-social-grids ul li a i.fa.fa-rss,.agileinfo-social-grids ul li a i.fa.fa-vk{
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+.agileinfo-social-grids ul li a i.fa.fa-facebook:hover {
+    color: #3b5998;
+}
+.agileinfo-social-grids ul li a i.fa.fa-twitter{
+	margin:0 1em;
+}
+.agileinfo-social-grids ul li a i.fa.fa-twitter:hover{
+	color: #55acee;
+}
+.agileinfo-social-grids ul li a i.fa.fa-rss{
+	margin:0 1em 0 0;
+}
+.agileinfo-social-grids ul li a i.fa.fa-rss:hover{
+	color: #f26522;
+}
+.agileinfo-social-grids ul li a i.fa.fa-vk:hover{
+	color: #45668e;
+}
+.agileinfo-social-grids ul li:nth-child(2){
+	margin:.5em 0;
+}
+.agileinfo-social-grids ul li:nth-child(3){
+	margin:0 0 .5em 0;
+}
+/*-- //social-icons --*/
+.navbar-default {
+    background: none;
+    border: none;
+}
+.navbar {
+    margin-bottom: 0;
+}
+.navbar-collapse {
+    padding: 0;
+    box-shadow: none;
+}
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+.navbar-nav {
+    float: right;
+    margin: 0;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    border: solid 4px rgba(255, 255, 255, 0);
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #ffffff;
+    border: solid 4px #ffffff;
+    background: none;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: #ffffff;
+}
+.navbar-nav > li > a {
+	font-size: 1em;
+    padding: .5em 1em;
+    margin-right: 5px;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #ffffff;
+    border: solid 4px #ffffff;
+    background: none;
+}
+/*-- //header --*/
+/*-- w3layouts-banner-info --*/
+.w3layouts-banner-info {
+    padding: 8em 0 2em 0;
+}
+.w3ls-text{
+    padding: -1em;
+    width: 31%;
+    margin: 0 auto;
+    text-align: center;
+    border: solid 16px #FFFFFF;
+}
+.w3ls-text h2{
+    margin: 0;
+    font-size: 5em;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: 700;
+	letter-spacing: 4px;
+
+}
+.w3-arrow{
+    text-align: center;
+    margin: 4em 0 0 0;
+}
+.w3-arrow a b.fa.fa-angle-down{
+    color: #FFFFFF;
+    font-size: 2em;
+    border: solid 1px #FFFFFF;
+    width: 50px;
+    height: 50px;
+    padding: .25em;
+    border-radius: 50%;
+	-webkit-border-radius: 60%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	-moz-border-radius: 50%;
+}
+
+
+
+/*-- introduction --*/
+.introduction,.about,.gallery,.team-dot,.news,.contact{
+	padding:10px 0px 5px 0px;
+}
+.w3l-heading h3{
+    text-align: center;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+    letter-spacing: 2px;
+}
+.w3ls-border{
+    background: #000000;
+    width: 7%;
+    margin: 3em auto 0;
+    height: 2px;
+}
+.introduction-info,.agileits-about-grids,.agileits-team-grids,.wthree-news-grids {
+    margin: 2em 0 0 0;
+}
+.introduction-info p{
+	color: #999999;
+    font-size: .9em;
+    margin: 0 auto;
+    line-height: 1.8em;
+    width: 70%;
+    text-align: center;
+}
+/*-- //introduction --*/
+/*-- about --*/
+.about,.contact{
+    background: url("https://thumbs.gfycat.com/ShamelessIdealAttwatersprairiechicken-size_restricted.gif");
+}
+.about-heading h3{
+	color: orangered;
+	background:  orange;
+}
+.about-border{
+	background: #FFFFFF;
+}
+.about-grids1 {
+	margin-top: 4em;
+}
+/*-- Effect 1--*/
+.about-grid-left span{
+	font-size: 2em;
+    color:  orangered;
+    display: inline-block;
+    border-radius: 50%;
+    text-decoration: none;
+    z-index: 1;
+    padding: 1em;
+}
+.about-grid-left span:after {
+  pointer-events: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  content: '';
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+.effect-1 {
+    background: #ffffff;
+    -webkit-transition: background 0.5s, color 0.2s;
+    -moz-transition: background 0.5s, color 0.2s;
+    transition: background 0.5s, color 0.2s;
+}
+.effect-1:after {
+    top: -7px;
+    left: -7px;
+    padding: 7px;
+    box-shadow: 0 0 0 2px #000000;
+    -webkit-transition: -webkit-transform 0.5s, opacity 0.2s;
+    -webkit-transform: scale(0.8);
+    -moz-transition: -moz-transform 0.5s, opacity 0.2s;
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transition: transform 0.5s, opacity 0.2s;
+    transform: scale(0.8);
+    opacity: 0;
+}
+.about-grid:hover span{
+	background: #000000;
+    color: #fff !important;
+}
+.about-grid:hover span:after {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+}
+/*--//Effect 1--*/
+.about-grid-right h4 {
+	font-size: 1em;
+    margin: 0 0 .5em;
+	color: #000;
+	background-color:  orange;
+    text-transform: uppercase;
+	font-weight: 600;
+	text-align: center;
+    letter-spacing: 1px;
+}
+.about-grid-right p{
+    margin: 0;
+    font-size: 1em;
+	color: orangered;
+	background-color:   orange;
+	text-align: center;
+    line-height: 1.8em;
+}
+.about-grid-left {
+    text-align: right;
+    padding-right: 2em;
+}
+/*-- //about --*/
+
+/*-- team --*/
+.team{
+	background: url(../images/bg.jpg) no-repeat 0px 0px;
+    background-size: cover;
+}
+.team-dot {
+    background: url(../images/dott.png)repeat 0px 0px;
+    background-size: 2px;
+    -webkit-background-size: 2px;
+    -moz-background-size: 2px;
+    -o-background-size: 2px;
+    -ms-background-size: 2px;
+}
+
+
+
+
+/*-- responsive --*/
+@media(max-width:1440px){
+	.contact-form-left {
+		padding: 4em 0em 4em 9em;
+	}
+	.contact-form-right {
+		padding: 4em 9em 4em 4em;
+	}
+}
+@media(max-width:1280px){
+	.contact-form-left {
+		padding: 4em 0em 4em 6em;
+	}
+	.contact-form-right {
+		padding: 4em 6em 4em 4em;
+	}
+}
+@media(max-width:1080px){
+	.w3ls-text {
+		width: 35%;
+	}
+	.team-caption {
+		height: 306px;
+	}
+	.team-caption h4 {
+		margin: 3.5em 0 0 0;
+	}
+	.address-info {
+		width: 60%;
+	}
+}
+@media(max-width:991px){
+	.agileits-logo h1 a img {
+		width: 8%;
+	}
+	.navbar-header {
+		float: none;
+		text-align: center;
+		margin: 0 0 2em 0;
+	}
+	.navbar-nav {
+		float: none;
+		margin: 0;
+		text-align: center;
+	}
+	.navbar-nav > li {
+		float: none;
+		display: inline-block;
+	}
+	.w3layouts-banner-info {
+		padding: 6em 0 2em 0;
+	}
+	.w3ls-text {
+		width: 50%;
+	}
+	.introduction-info p {
+		width: 90%;
+	}
+	.about-grids1 {
+		margin-top: 2em;
+	}
+	.about-grid:nth-child(2){
+		margin:2em 0 0 0;
+	}
+	.agileits-team-grid {
+		float: left;
+		width: 50%;
+		margin:0 0 2em 0;
+	}
+	.agileits-team-grid:nth-child(3),.agileits-team-grid:nth-child(4) {
+		margin:0;
+	}
+	.team-caption {
+		height: 494px;
+	}
+	.team-caption h4 {
+		margin: 6.5em 0 0 0;
+	}
+	div#design {
+		min-height: 900px;
+	}
+	.address-icon {
+		width: 6%;
+	}
+}
+@media(max-width:736px){
+	.navbar-toggle {
+		margin-right: 0;
+	}
+	.navbar-default .navbar-toggle {
+		border-color: #fff;
+	}
+	.navbar-default .navbar-toggle .icon-bar {
+		background-color: #fff;
+	}
+	.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+		background: none;
+	}
+	.navbar-collapse {
+		position: absolute;
+		width: 100%;
+	}
+	.navbar-nav > li {
+	    float: none;
+		text-align: center;
+		background:  orange;
+		display: block;
+	}
+	.navbar-nav > li > a {
+		margin: 0;
+	}
+	.w3ls-text h2 {
+		font-size: 4em;
+	}
+	.w3ls-text {
+		width: 46%;
+	}
+	.w3layouts-banner-info {
+		padding: 3em 0 2em 0;
+	}
+	.w3_tab_img_left {
+		float: left;
+		width: 50%;
+	}
+	.team-caption {
+		height: 470px;
+	}
+	.wthree-news-left{
+		width:15%;
+	}
+	.date-text{
+		width:80%;
+	}
+	div#design {
+		min-height: 940px;
+	}
+}
+@media(max-width:667px){
+	.team-caption {
+		height: 419px;
+	}
+	.team-caption h4 {
+		margin: 5.5em 0 0 0;
+	}
+}
+@media(max-width:600px){
+	.w3ls-text {
+		width: 55%;
+	}
+	.nav-tabs > li {
+		margin: 0 0px;
+	}
+	.team-caption {
+		height: 368px;
+	}
+	.address-icon {
+		width: 11%;
+	}
+	.w3ls-border {
+		width: 15%;
+	}
+}
+@media(max-width:568px){
+	.team-caption {
+		height: 344px;
+	}
+	.team-caption h4 {
+		margin: 4.5em 0 0 0;
+	}
+	div#design {
+		min-height: 1073px;
+	}
+	.styled-input {
+		width: 47%;
+	}
+}
+@media(max-width:480px){
+	.w3ls-text {
+		border: solid 10px #FFFFFF;
+	}
+	.w3ls-text h2 {
+		font-size: 3em;
+	}
+	.about-grid-left span {
+		font-size: 1.7em;
+	}
+	.nav-tabs > li > a {
+		margin-right: 0px;
+		padding: .5em .5em;
+	}
+	.team-caption {
+		height: 278px;
+	}
+	.team-caption h4 {
+		margin: 2.5em 0 0 0;
+	}
+	div#design {
+		min-height: 1167px;
+	}
+	.styled-input {
+		width: 100%;
+		float: none;
+		margin: 2em 0 1em 0em;
+	}
+	.styled-input.agile-styled-input-top {
+		margin-top: 2em;
+	}
+	.navbar-header {
+		text-align: left;
+	}
+	.agileits-logo h1 a {
+		letter-spacing: 1px;
+	}
+	.agileits-logo h1 a img {
+		width: 10%;
+	}
+	.wthree-news-left{
+		width:20%;
+	}
+	.date-text{
+		width:75%;
+	}
+	.wthree-news-grids {
+		width: 95%;
+	}
+	div#design {
+		min-height: 1115px;
+	}
+}
+@media(max-width:414px){
+	.agileits-logo h1 a {
+		font-size: .8em;
+	}
+	.agileits-logo h1 a img {
+		width: 13%;
+	}
+	.w3ls-text {
+		width: 65%;
+	}
+	.w3layouts-banner-info {
+		padding: 1em 0 1em 0;
+	}
+	.introduction, .about, .gallery, .team-dot, .news, .contact {
+		padding: 2em 0;
+	}
+	.w3ls-border {
+		margin: 1em auto 0;
+	}
+	.introduction-info, .agileits-about-grids, .agileits-team-grids, .wthree-news-grids {
+		margin: 1em 0 0 0;
+	}
+	.about-grid-left span {
+		font-size: 1.2em;
+	}
+	.nav-tabs {
+		margin: 2em 0;
+	}
+	.nav-tabs > li > a {
+		font-size: .8em;
+	}
+	.team-caption h4 {
+		font-size: 1.2em;
+	}
+	.team-caption {
+		height: 229px;
+	}
+	.wthree-news-grids {
+		margin: 1em auto 0;
+	}
+	div#design {
+		min-height: 1153px;
+	}
+	.contact-form-left {
+		padding: 2em 0em 2em 2em;
+	}
+	.contact-form-right {
+		padding: 2em 2em 2em 2em;
+	}
+	.modal-header h4 {
+		font-size: 1.2em;
+	}
+	.contact-form-grid {
+		margin: 2em 0 0 0;
+	}
+}
+@media(max-width:384px){
+	.team-caption h4 {
+		font-size: 1em;
+	}
+	.team-caption {
+		height: 206px;
+	}
+	.wthree-news-grids {
+		width: 100%;
+	}
+	div#design {
+		min-height: 1220px;
+	}
+	.w3l-heading h3 {
+		font-size: 1.5em;
+	}
+	.header {
+		margin: 0em 0 0 0;
+	}
+}
+@media(max-width:375px){
+	.nav-tabs > li {
+		margin: 2px 0px;
+	}
+	.navbar-header {
+		margin: 0 0 1em 0;
+	}
+	.team-caption {
+		height: 199px;
+	}
+	div#design {
+		min-height: 1210px;
+	}
+	.wthree-news-grid{
+		margin:0 0 1em 0;
+	}
+}
+@media(max-width:320px){
+	.agileits-logo h1 a {
+		font-size: .6em;
+	}
+	.agileits-logo h1 a img {
+		width: 15%;
+	}
+	.w3ls-text h2 {
+		font-size: 2em;
+	}
+	.w3ls-text {
+		border: solid 5px #FFFFFF;
+	}
+	.w3-arrow {
+		margin: 3em 0 0 0;
+	}
+	.about-grid-left {
+		text-align: center;
+		padding: 0;
+		float: none;
+		margin: 0 auto 1em;
+	}
+	.about-grid-right {
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+	.agileits-team-grid {
+		float: none;
+		width: 100%;
+		margin: 0 0 1em 0;
+	}
+	.team-caption {
+		height: 363px;
+	}
+	.team-caption h4 {
+		font-size: 1.5em;
+		margin: 4.5em 0 0 0;
+	}
+	div#design {
+		min-height: 1365px;
+	}
+	.address-icon {
+		width: 16%;
+	}
+	.navbar-collapse {
+		z-index: 99;
+	}
+}
+/*-- //responsive --*/
+p{font-size: 25px;
+	font-weight: bold;
+font-family: Verdana, Geneva, Tahoma, sans-serif;}
