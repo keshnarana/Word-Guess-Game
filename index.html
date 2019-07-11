@@ -67,32 +67,31 @@ addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); func
 			
 			</div>
 			<div class="introduction-info">
-				<h2 >Number of wins<h2 id="win" > 0</h2>
-			<br>	<h2 >Number of losses<h2 id="loss" > 0</h2>
+				<h2 style= "display: inline-block">Number of wins=</h2> <h2 id="win" style= "display: inline-block">0</h2>
+			<br>	<h2 style= "display: inline-block"  >Number of losses=  </h2> <h2 id="loss" style= "display: inline-block"> 0</h2>
 
-			 <h2  id="name" style="text-align: center"></h2>
 			 <div>
 			
 				<audio id="audioId" >
-					<source id="song" src="./assets/audio/Rihanna-01-Diamonds-903310.mp3" type="audio/mp3">
+					<source id="Diamonds" class="sName" src="./assets/audio/Rihanna-01-Diamonds-903310.mp3" type="audio/mp3">
 					</audio>
 					<audio id="audioId1" >
-						<source id="song1" src="./assets/audio/lady-gaga-bad-romance.mp3" type="audio/mp3">
+						<source id="BadRomance" class="sName"  src="./assets/audio/lady-gaga-bad-romance.mp3" type="audio/mp3">
 						</audio>
 						<audio id="audioId2" >
-							<source id="song2" src="./assets/audio/katy-perry-love-me.mp3" type="audio/mp3">
+							<source id="LoveMe" class="sName" src="./assets/audio/katy-perry-love-me.mp3" type="audio/mp3">
 							</audio>
 							<audio id="audioId3" >
-								<source id="song3" src="./assets/audio/ariana-grande-7-rings.mp3" type="audio/mp3">
+								<source id="7Rings" class="sName" src="./assets/audio/ariana-grande-7-rings.mp3" type="audio/mp3">
 								</audio>
 								<audio id="audioId4" >
-									<source id="song4" src="./assets/audio/miley-cyrus-wrecking-ball.mp3" type="audio/mp3">
+									<source id="WreckingBall" class="sName" src="./assets/audio/miley-cyrus-wrecking-ball.mp3" type="audio/mp3">
 									</audio>
 									<audio id="audioId5" >
-										<source id="song5" src="./assets/audio/beyonce-single-ladies-put-a-ring-on-it-main.mp3" type="audio/mp3">
+										<source id="PutARingOnIt" class="sName" src="./assets/audio/beyonce-single-ladies-put-a-ring-on-it-main.mp3" type="audio/mp3">
 										</audio>
 										<audio id="audioId6" >
-											<source id="song6" src="./assets/audio/taylor-swift-i-wish-you-would.mp3" type="audio/mp3">
+											<source id="IWishYouWould" class="sName" src="./assets/audio/taylor-swift-i-wish-you-would.mp3" type="audio/mp3">
 											</audio>
 			</div>
 	
@@ -117,37 +116,34 @@ addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); func
 						</div>
 						<div class="col-xs-9 about-grid-right">
 							<h4>Number of guesses remaining</h4>
-							<p id="current">9</p>
+							<p id="current">10</p>
 						</div>
+						<br>
+						<br>
+						<br>
+						<div class="col-xs-9 about-grid-right">
+								<h4>letters already guessed</h4>
+								<p id="guess"> </p>
+							
+						</div>
+						
 						<div class="clearfix"> </div>
+						
 					</div>
 					<div class="col-md-6 about-grid">
 						<div class="col-xs-3 about-grid-left">
 						
 						</div>
 						<div class="col-xs-9 about-grid-right">
-								<h4></h4>
+								
+								<h2  id="name" style="display: inline-block; background-color: orange">  </h2>  <h2  id="name1" style=" display: inline-block; background-color: orange"></h2>
 								<img id="image" width="180px" height="150px" src="http://b.rgbimg.com/users/g/gr/greekgod/600/mlnrYjW.jpg"></image>
-						</div>
+						<br><br><br><br></div>
 						<div class="clearfix"> </div>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
-				<div class="about-grids1">
-					
-					<div class="col-md-6 about-grid">
-						<div class="col-xs-3 about-grid-left">
-							<span class="glyphicon glyphicon-bed effect-1" aria-hidden="true"></span>
-						</div>
-						<div class="col-xs-9 about-grid-right">
-								<h4>letters already guessed</h4>
-								<p id="guess"> </p>
-							
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
+			
 				
 			</div>
 		</div>
