@@ -9,7 +9,8 @@ var wins = 0;
 var losses = 0;
 var guessesRemaining = 10;
 
-Game();
+
+window.onload=Game;
 
 document.onkeyup = function (event) {              
     var guesses = String.fromCharCode(event.keyCode).toLowerCase();   //user input key
